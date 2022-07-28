@@ -131,7 +131,7 @@ main {
   margin-left: 25px;
 }
 
-/* Aside content */
+/* Aside Section */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -142,7 +142,7 @@ main {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
+/* Aside- lead generation content */
 .benefit-lead {
   margin-bottom: 32px;
   color: #ffffff;
@@ -158,7 +158,7 @@ main {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* Aside- brand awareness content */
 .benefit-brand {
   margin-bottom: 32px;
   color: #ffffff;
@@ -174,7 +174,7 @@ main {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* Aside- cost management content */
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
@@ -190,7 +190,7 @@ main {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* Footer Content */
 .footer {
   padding: 30px;
   clear: both;
