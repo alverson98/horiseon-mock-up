@@ -36,11 +36,11 @@ A list of the major changes made while refactoring:
 
 - Added descriptive `alt` attributes to all images.
 - Created a descriptive title.
-- Changed the `div` elements to semantic elements.
+- Changed the `div` tags to semantic elements.
 - Adjusted heading tags to follow importance logic.
 - Added comments to CSS and HTML.
-- Changed some HTML classes in order to reduce the number of different classes.
-    - Condenced CSS by changing selectors to match the new classes and combining duplicate rule sets.
+- Changed some HTML classes to reduce the number of different classes.
+    - Condensed CSS by changing selectors to match the new classes and combining duplicate rule sets.
 - Added missing `id` to fix broken `nav` link.
 
 Tools used to complete this project:
