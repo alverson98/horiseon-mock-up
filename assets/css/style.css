@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-/* Header content */
+/* ## HEADER CONTENT ## */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -25,11 +25,11 @@ h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* part of heading word needing to be a different color */
 .seo {
   color: #d9dcd6;
 }
-/* Header navigation */
+/* ## HEADER NAVIGATION ## */
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -51,20 +51,21 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-/* Large image under header */
+/* LARGE IMAGE UNDER HEADER */
 .hero {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
 }
-/* Main content */
+/* ## MAIN CONTENT ## */
 main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-/* SEO section content*/
-.search-engine-optimization {
+/* ## MAIN CONTENT SECTIONS ## */
+/* all 3 main content sections combined to one class */
+.main-content {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -73,65 +74,30 @@ main {
   color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* all main section images */
+.main-content img {
   max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/* all main section headings */
+.main-content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-/* ORM section content */
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-/* SMM section content */
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-/* Img's orientation in main content --> SEO, ORM, SMM */
+/* img orientation in main content sections */
+/* img on left */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* img on right */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
-/* Aside Section */
+/* ## ASIDE SECTION ## */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -142,56 +108,28 @@ main {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-/* Aside- lead generation content */
-.benefit-lead {
+/* ## ASIDE CONTENT ## */
+/* all 3 aside section content combined into one class */
+.aside-content {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-lead h3 {
+/* all aside section headings */
+.aside-content h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-lead img {
+/* all aside section images */
+.aside-content img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
-/* Aside- brand awareness content */
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-/* Aside- cost management content */
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-/* Footer Content */
-.footer {
+/* ## FOOTER CONTENT ## */
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -199,6 +137,7 @@ main {
   text-align: center;
 }
 
-.footer h4 {
+/* making text larger than the rest of footer text */
+footer h4 {
   font-size: 20px;
 }
